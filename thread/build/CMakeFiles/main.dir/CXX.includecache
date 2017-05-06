@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/Projects/thread/main.cpp
+stdio.h
+-
+pthread.h
+-
+string.h
+-
+sys/types.h
+-
+unistd.h
+-
+pthread.h
+-
+string.h
+-
+sys/types.h
+-
+unistd.h
+-
+iostream
+-
+
